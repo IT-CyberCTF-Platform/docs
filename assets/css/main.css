@@ -2,8 +2,7 @@
 @import "@nuxt/ui";
 
 :root {
-  --ui-primary: oklch(83.442% 0.27984 142.289);
-
+  --primary: oklch(68.74% 0.147 142.44);
   --ui-secondary: oklch(76.32% 0.04 291.98);
   --font-sans:
     "Noto Sans Thai Looped", ui-sans-serif, system-ui, sans-serif,

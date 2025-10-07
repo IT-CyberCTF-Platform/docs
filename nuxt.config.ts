@@ -8,8 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/fonts",
   ],
-  github: false,
-  socials: {
-    github: "https://github.com/IT-CyberCTF-Platform",
+  site: {
+    name: "SecSpac Docs",
   },
 });
