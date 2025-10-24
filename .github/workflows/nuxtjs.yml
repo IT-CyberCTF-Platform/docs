@@ -64,7 +64,7 @@ jobs:
       - name: Set Env Variables
         run: export  NUXT_PUBLIC_BASE_URL=/docs/
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} run build
+        run: NUXT_APP_BASE_URL=/docs/ ${{ steps.detect-package-manager.outputs.manager }} run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
