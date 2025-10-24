@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
+  ssr: true,
   modules: [
     "@nuxt/content",
     "@nuxt/image",
@@ -10,5 +11,8 @@ export default defineNuxtConfig({
   ],
   site: {
     name: "SecSpac Docs",
+  },
+  nitro: {
+    preset: 'static',
   },
 });

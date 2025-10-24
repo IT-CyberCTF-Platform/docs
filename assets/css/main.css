@@ -4,13 +4,14 @@
 :root {
   --primary: oklch(68.74% 0.147 142.44);
   --ui-secondary: oklch(76.32% 0.04 291.98);
+  --ui-container:"w-full";
   --font-sans:
     "Noto Sans Thai Looped", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .dark {
-  --ui-primary: oklch(74.172% 0.24912 142.298);
+  --ui-primary: oklch(71.536% 0.17941 142.231);
   --ui-bg: hsla(120, 44%, 4%);
   --ui-secondary: oklch(37.169% 0.13773 285.548);
 }
