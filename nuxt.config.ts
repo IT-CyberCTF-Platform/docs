@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     name: "SecSpac Docs",
   },
   nitro: {
-    preset: 'static',
+    preset: "static",
+  },
+  app: {
+    baseURL: "/docs/",
   },
 });
