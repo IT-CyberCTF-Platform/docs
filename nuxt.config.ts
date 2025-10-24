@@ -15,7 +15,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: "static",
   },
+  robots: { robotsTxt: false },
   app: {
     baseURL: "/docs/",
+    buildAssetsDir: 'assets',
   },
 });
