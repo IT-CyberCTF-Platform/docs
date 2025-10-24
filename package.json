@@ -2,7 +2,7 @@
   "name": "docus-starter",
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus --preset github_pages"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.6.2",
